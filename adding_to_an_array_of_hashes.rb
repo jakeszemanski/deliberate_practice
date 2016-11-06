@@ -4,15 +4,16 @@ people = []
 
 5.times do
   person = {}
-puts "What is your first name?"
-person['first_name'] = gets.chomp
+  puts "What is your first name?"
+  person['first_name'] = gets.chomp
 
-puts "What is your last name?"
-person['last_name'] = gets.chomp
+  puts "What is your last name?"
+  person['last_name'] = gets.chomp
 
-puts "What is your age?"
-person['age'] = gets.chomp
-people << person
+  puts "What is your age?"
+  person['age'] = gets.chomp
+
+  people << person
 end
 
 puts people
